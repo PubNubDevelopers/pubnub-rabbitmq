@@ -3,7 +3,7 @@ A chat app that implements Pub/Sub Messaging with RabbitMQ and PubNub. Use this 
 
 ## Set-up
 
-Get your [PubNub free API keys](https://dashboard.pubnub.com/signup?devrel_gh=pubnubrabbitmq) and include your publish and subscribe keys `app.js` as well as `scripts.js`.
+Get your [PubNub free API keys](https://dashboard.pubnub.com/signup?devrel_gh=pubnubrabbitmq) and include your publish and subscribe keys `app.js` as well as `public/scripts.js`.
 
 ```
     var pubnub = new PubNub({
