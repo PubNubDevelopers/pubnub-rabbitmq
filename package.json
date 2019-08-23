@@ -1,0 +1,27 @@
+{
+  "name": "pubnub-rabbitmq",
+  "version": "1.0.0",
+  "description": "A chat app that implements Pub/Sub Messaging with PubNub and RabbitMQ",
+  "main": "app.js",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "pubnub": "^4.25.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PubNubDevelopers/pubnub-rabbitmq.git"
+  },
+  "author": "PubNub Developers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PubNubDevelopers/pubnub-rabbitmq/issues"
+  },
+  "homepage": "https://github.com/PubNubDevelopers/pubnub-rabbitmq#readme"
+}
